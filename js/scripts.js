@@ -22,9 +22,8 @@ $(document).ready(function() {
     event.preventDefault();
     var input = $("#input").val();
     var variableSpot = pingPonger(input);
+    $("ul#output").children("li").remove();
     $("ul#output").append(emptyArray.reverse());
-    $("ul#output").children("li").first().submit(function( {
-      $(this).remove();
-    }));
+    emptyArray=[]
   });
 });
