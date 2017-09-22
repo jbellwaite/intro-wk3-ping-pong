@@ -21,9 +21,9 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
     var input = $("#input").val();
-    var variableSpot = pingPonger(input);
     $("ul#output").children("li").remove();
+    pingPonger(input);
     $("ul#output").append(emptyArray.reverse());
-    emptyArray=[]
+    emptyArray=[];
   });
 });
