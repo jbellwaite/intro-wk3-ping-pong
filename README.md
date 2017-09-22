@@ -31,7 +31,7 @@ A website created with HTML, CSS, Bootstrap, Javascript and jQuery to allow a us
 _Use a text editor like Atom to edit code._
 
 ## GitHub GH-Pages link
-
+_https://jbellwaite.github.io/ping-pong/_
 
 ## Known Bugs
 * No known bugs at this time. I was unable to refactor the "if" "else if" statements, as they seem repetitive. Also, I don't know if "emptyArray = []", is proper syntax, but for some reason I could't get my remove function to work properly without it.
