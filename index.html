@@ -9,9 +9,24 @@
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Ping-Pong</title>
   </head>
   <body>
-
+    <h1>Ping-Pong Game</h2>
+      <p>Enter a number to return a count of your number with the following replacements:</p>
+        <ol>
+          <li>Numbers divisible by 3 will become "ping"</li>
+          <li>Numbers divisible by 5 will become "pong"</li>
+          <li>Numbers divisible by 3 and 5 will become "ping-pong"</li>
+        </ol>
+      <form>
+        <div class="form-group">
+          <label>Enter a number!</label>
+          <input type="text" required id="input"></input>
+        </div>
+        <button class="btn" type="submit">Play!</button>
+      </form>
+      <ul id="output">
+      </ul>
   </body>
 </html>
