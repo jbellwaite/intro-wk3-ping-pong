@@ -1,10 +1,9 @@
 //Back-End, Business Logic Section
 var emptyArray = [""]
 
-
 function pingPonger(input) {
   var inputNumber = parseInt(input)
-  for (var i = inputNumber; i > 0; i = i-1) {
+  for (var i = inputNumber; i > 0; i = i - 1) {
     if (i % 3 === 0) {
       emptyArray.push("<li>" + "ping!" + "</li>")
     }else if (i % 5 === 0) {
@@ -17,15 +16,12 @@ function pingPonger(input) {
   }
 }
 
-
-
-
 //Front-End, User Interface Section
 $(document).ready(function() {
-  $("form").submit(function(event) {
+  $("form").first().submit(function(event) {
     event.preventDefault();
     var input = $("#input").val();
     var variableSpot = pingPonger(input);
-    var output = $("#output").append(emptyArray.reverse().join(" "));
+    var output = $("ul#output").append(emptyArray.reverse().join(" "));
   })
 })
