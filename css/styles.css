@@ -5,9 +5,35 @@ body {
   background-attachment: fixed;
 }
 
-.well {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjCaY8gbWKQrMYPUdqguhsMs3X7L1vIeUB13kc2Mlx5Bn_6ntDw") !important;
-  background-size: auto;
+#well1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQfhm4Ho7xnyJLjt-Pw5tzqAB2DtxO4msoJAmoyJpKP6-J2Dr") !important;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+  background-color: green;
+}
+
+#well2 {
+  background-image: url("http://cdn.funcheap.com/wp-content/uploads/2014/12/ferrel1-243x300.jpeg") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: green;
+}
+
+.jumbotron {
+  background-color: green !important;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+li {
+  color: white;
 }
