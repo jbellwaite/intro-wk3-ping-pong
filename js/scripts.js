@@ -18,10 +18,10 @@ function pingPonger(input) {
 
 //Front-End, User Interface Section
 $(document).ready(function() {
-  $("form").first().submit(function(event) {
+  $("form").submit(function(event) {
     event.preventDefault();
     var input = $("#input").val();
     var variableSpot = pingPonger(input);
-    var output = $("ul#output").append(emptyArray.reverse().join(" "));
+    $("ul#output").append(emptyArray.reverse().join(" "));
   })
 })
